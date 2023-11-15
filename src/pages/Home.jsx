@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div>
       <h1>Sarah Goodell</h1>
+      {/* Photo of me here */}
       <p>
         Hello, I'm Sarah Goodell, a passionate Full Stack Web Developer dedicated to crafting engaging digital experiences. My journey into the world of coding began after a fulfilling stint in Secondary Education, specializing in English/Language Arts, at the University of Central Florida. While teaching was rewarding, my fascination with software development grew stronger with time, prompting me to transition and pursue my true passion.
 
