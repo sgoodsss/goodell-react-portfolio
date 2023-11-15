@@ -7,9 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Error from './pages/Error';
 import Home from './pages/Home';
-import myWork from './pages/Projects;
 import Contact from './pages/Contact';
-
 import Resume from './pages/Resume';
 import Projects from './pages/Projects';
 
