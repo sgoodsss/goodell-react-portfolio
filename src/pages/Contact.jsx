@@ -7,6 +7,7 @@
 
 import { useState, useRef } from 'react';
 import emailjs from '@emailjs/browser';
+import "./Contact.css"
 
 export default function Contact() {
   // Here we set two state variables for firstName, lastName, email, and message using `useState`
@@ -66,28 +67,28 @@ export default function Contact() {
           onChange={handleInputChange}
           type="text"
           placeholder="First Name"
-        />
+        /> <br />
         <input
           value={lastName}
           name="lastName"
           onChange={handleInputChange}
           type="text"
           placeholder="Last Name"
-        />
+        /> <br />
         <input
           value={email}
           name="email"
           onChange={handleInputChange}
           type="email"
           placeholder="type your email here!"
-        />
+        /> <br />
         <input
           value={message}
           name="message"
           onChange={handleInputChange}
-          type="text"
+          type="textarea"
           placeholder="What would you like to say?"
-        />
+        /> <br />
         <button type="submit">
           Submit
         </button>

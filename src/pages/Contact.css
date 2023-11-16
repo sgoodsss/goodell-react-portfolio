@@ -1,0 +1,32 @@
+.container {
+    padding: 5%;
+}
+
+/* Form Styling */
+.form {
+    font-size: x-large;
+    padding: 1.5%;
+    text-align: center;
+}
+
+button {
+    height: 10%;
+    width: 25%;
+    text-align: center;
+    margin: 3%;
+}
+
+input {
+    padding: 3px;
+    box-shadow: 3px 3px 5px grey;
+    font-size: 16px;
+    font-weight: 600;
+    width: 300px;
+    margin: 1%;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    text-align: center;
+  }
