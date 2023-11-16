@@ -1,3 +1,13 @@
 .card {
-    max-width: 400px;
+    max-width: 350px;
+    padding: 3%;
+}
+
+.linkToProject {
+    padding: .125%;
+    color: #895D2B;
+}
+
+.linkToGithub {
+    color: #895D2B;
 }

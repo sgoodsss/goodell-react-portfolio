@@ -67,10 +67,10 @@ export default function Projects() {
         }}>
 
         {projects.map(project => (
-          <a href={project.linkToApp}>
+          <a className="linkToProject" href={project.linkToApp}>
           <div className="card" key={project.id}>
             <h2>{project.title}</h2>
-            <a href={project.linkToGithub}>Link to GitHub Repo</a>
+            <a className="linkToGithub" href={project.linkToGithub}>Link to GitHub Repo</a>
             <img src={project.imgsrc} alt="project image" />
           </div>
           </a>

@@ -6,6 +6,10 @@ Sandstorm #F0DAAE
 Cinnamon #90553C
 */
 
+#root {
+  max-width: 100%;
+}
+
 body {
   background-color: #F0DAAE;
 }
