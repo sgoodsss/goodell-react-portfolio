@@ -1,0 +1,19 @@
+.resumeCenter {
+    text-align: center;
+    padding: 10%;
+  }
+  
+  .clickDownload {
+    font-size: xx-large;
+    color: #482E1D;
+    padding: 3%;
+    margin: 10%;
+  }
+
+h1 {
+    padding: 2%;
+}
+
+h3 {
+    padding: 3%;
+}
