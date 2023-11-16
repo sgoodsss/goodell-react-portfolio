@@ -1,5 +1,5 @@
 .container {
-    padding: 5%;
+    padding: 3%;
 }
 
 /* Form Styling */
@@ -30,3 +30,7 @@ label {
     display: block;
     text-align: center;
   }
+
+.footer{
+    padding: 3%;
+}
