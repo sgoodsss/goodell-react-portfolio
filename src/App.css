@@ -6,6 +6,10 @@ Sandstorm #F0DAAE
 Cinnamon #90553C
 */
 
+body {
+  background-color: #F0DAAE;
+}
+
 h1 {
   padding: .75%;
 }
@@ -20,4 +24,12 @@ h1 {
 
 .myName {
   text-align: center;
+}
+
+.nav-item {
+  padding: 1%;
+}
+
+.nav-link {
+  color: #895D2B;
 }
