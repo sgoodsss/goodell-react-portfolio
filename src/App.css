@@ -8,6 +8,7 @@ Cinnamon #90553C
 
 #root {
   max-width: 100%;
+  font-family: 'Quicksand', sans-serif;
 }
 
 body {
@@ -16,6 +17,8 @@ body {
 
 h1 {
   padding: .75%;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
 }
 
 .selfie {
@@ -24,6 +27,10 @@ h1 {
   padding: 1%;
   max-width: 15%;
   max-height: 15%;
+}
+
+p {
+  padding: 3%;
 }
 
 .myName {
