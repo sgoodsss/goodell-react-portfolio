@@ -2,9 +2,9 @@ function Footer() {
 
   return (
     <>
-     <div className='row'> 
+     <div className='row footer'> 
             <div className="col">
-                <h4>Cell Phone: 941.336.9878</h4>
+                <h4>Cell Phone: <br /> 941.336.9878</h4>
             </div>
             <div className="col">
                 <h4>Email: sarahlgoodell1@gmail.com</h4>

@@ -26,10 +26,24 @@ h1 {
   text-align: center;
 }
 
+.nav {
+  background-color: #A3966A;
+}
+
 .nav-item {
   padding: 1%;
 }
 
 .nav-link {
   color: #895D2B;
+}
+
+.footer {
+  background-color: #90553C;
+  color: #F0DAAE;
+  text-align: center;
+}
+
+a {
+  color:#F0DAAE;
 }
