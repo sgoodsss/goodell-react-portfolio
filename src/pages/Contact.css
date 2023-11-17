@@ -34,3 +34,45 @@ label {
 .footer{
     padding: 3%;
 }
+
+/* Media Query for Tablet */
+@media screen and (max-width: 1030px){
+    h1 { 
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    h3 {
+      font-size: 25px;
+    }  
+    footer {
+      font-size: 40px;
+    }
+  }
+  
+  /* Media Query for SmartPhones */
+  @media screen and (max-width: 480px){
+      h1 { 
+          font-size: 20px;
+      }
+      h2 {
+          font-size: 25px;
+      }
+      h3 {
+          font-size: 20px;
+      }  
+      .selfie {
+          max-width: 30%;
+          max-height: 30%;
+          margin-left: 35%;
+      }
+      footer {
+          font-size: 35px;
+      }
+      nav ul li {
+          display: inline-block;
+          margin-left: 15px;
+          font-size: 90%;
+      }
+  }

@@ -11,3 +11,12 @@
 .linkToGithub {
     color: #895D2B;
 }
+
+  
+  /* Media Query for SmartPhones */
+  @media screen and (max-width: 480px){
+    .card {
+        max-width: 300px;
+        padding: 3%;
+    }
+  }
