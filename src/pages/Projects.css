@@ -16,7 +16,16 @@
   /* Media Query for SmartPhones */
   @media screen and (max-width: 480px){
     .card {
-        max-width: 300px;
+        max-width: 420px;
         padding: 3%;
+        align-items: center;
+    }
+
+    img {
+        max-width: 420px;
+    }
+
+    .projectAlign {
+        align-items: center;
     }
   }

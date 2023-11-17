@@ -17,3 +17,30 @@ h1 {
 h3 {
     padding: 3%;
 }
+
+/* Media Query for Tablet */
+@media screen and (max-width: 1030px){
+    #root{
+      align-items: center;
+    }
+}
+
+/* Media Query for SmartPhones */
+@media screen and (max-width: 480px){
+  #root{
+    align-items: center;
+  }
+
+  .clickDownload {
+    font-size: larger;
+  }
+
+  .resumeCenter {
+    padding-top: 35%;
+    padding-bottom: 35%;
+  }
+
+  .footer {
+    padding: 20%;
+  }
+}

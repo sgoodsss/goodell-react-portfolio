@@ -59,7 +59,7 @@ export default function Projects() {
       <div>
         <h1>My Work</h1>
   
-        <div style={{
+        <div className="projectAlign" style={{
           display: "flex",
           maxWidth: "1200px",
           margin: "0 auto",
